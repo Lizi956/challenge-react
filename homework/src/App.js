@@ -82,7 +82,6 @@ function App() {
     setUser(null);
     setCart([]);
   };
-
   const addToCart = (product) => {
     if (cart.find((p) => p.id === product.id)) {
       alert("Product already in cart");
